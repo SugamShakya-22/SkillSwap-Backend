@@ -57,7 +57,7 @@ public class MailServiceImpl implements MailService {
             MimeMessage message = mailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
 
-            helper.setFrom("karunadahal503@gmail.com", "SkillSwap");
+            helper.setFrom("sugamshakya62@gmail.com", "SkillSwap");
             helper.setTo(user.getEmail());
             helper.setSubject(subject);
             helper.setText(content, true);
